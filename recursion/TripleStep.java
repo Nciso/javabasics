@@ -3,10 +3,8 @@
 * A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count howmany possible ways the child can run up to the stairs
 */
 
-import java.util.Arrays;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-class TripleStepTest {
+
+class TripleStep {
 
   public static int ways(int steps){
     if(steps < 0){
@@ -41,11 +39,6 @@ class TripleStepTest {
 
   }
 
-  @Test
-  void testWaysMemo() {
-      assertEquals(false, true);
-
-  }
 
   //public static void main(String[] args) {
   //  System.out.println(waysMemo(4));
